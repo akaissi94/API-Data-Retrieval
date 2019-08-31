@@ -10,6 +10,9 @@
 
 ## Running the application
 
-- "npm install" inside "Api-Data-Retrieval" folder
+- "npm install" inside:
+
+  - "Api-Data-Retrieval" folder if you do git clone
+  - "Api-Data-Retrieval-master" folder if you download as zip
 
 - "npm start" (starts on port 3000)
