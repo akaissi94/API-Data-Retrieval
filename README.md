@@ -10,6 +10,6 @@
 
 ## Running the application
 
-- "npm install" inside "api-data-retrieval" folder
+- "npm install" inside "Api-Data-Retrieval" folder
 
 - "npm start" (starts on port 3000)
