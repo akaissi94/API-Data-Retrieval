@@ -1,0 +1,32 @@
+.Search-searchbar {
+  width: calc(100% - 50px);
+  border: 0px;
+  border-bottom: 1px solid black;
+  padding: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: calc(10px + 2vmin);
+}
+
+.Search-searchbutton {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 150px;
+  display: block;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+  border: 0px solid black;
+  font-size: calc(8px + 2vmin);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Search-error {
+  color: red;
+  text-align: center;
+}
+
+.Search-no_events {
+  pointer-events: none;
+}

@@ -1,0 +1,42 @@
+.Results-main {
+  padding: 25px;
+}
+
+.Results-results {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: lightgray;
+}
+
+.Results-result_details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+}
+
+.Results-result_details_cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.8em 1.2em;
+  overflow: hidden;
+  list-style: none;
+  border: solid white;
+  background-color: teal;
+  width: 50%;
+  color: white;
+}
+
+.Results-no_results {
+  font-weight: bold;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
